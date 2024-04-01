@@ -25,8 +25,8 @@ const BottomCard = () => {
   return (
     <>
       {spotlightData.map((item) => (
-        <CardContainer>
-          <div key={item.title} className="flex flex-col items-center justify-center  h-[280px] w-[120px]  box-border sm:h-[468px] sm:w-[208px] ">
+        <CardContainer key={item.title}>
+          <div  className="flex flex-col items-center justify-center  h-[280px] w-[120px]  box-border sm:h-[468px] sm:w-[208px] ">
             <div className="h-full w-full flex flex-col items-center rounded-b-xl bg-slate-800">
               <img
                 className="h-full w-full object-contain p-2 rounded-xl"
