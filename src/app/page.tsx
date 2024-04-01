@@ -5,7 +5,7 @@ import { Meteors } from "@/components/ui/meteors";
 import { TracingBeam } from "@/components/ui/tracing-beam";
 import React, { useState } from "react";
 
-const page = () => {
+const Page = () => {
   const [darkMode, setDarkMode] = useState(false);
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
@@ -41,4 +41,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
